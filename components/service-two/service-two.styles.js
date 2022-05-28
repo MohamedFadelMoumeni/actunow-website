@@ -46,7 +46,7 @@ line-height: 2rem;
 export const LearnMore = styled.button`
 padding: .8rem 2rem;
 color: #fff;
-background: #6C63FF;
+background: #3544a3;
 border: 0;
 outline: 0;
 font-family: 'Poppins', sans-serif;
