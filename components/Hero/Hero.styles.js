@@ -25,7 +25,16 @@ export const Title = styled.h1`
 width: 80%;
 text-align:center;
 color: #fff;
-font-size: 4rem;
+
+@media  ${props => props.theme.devices.mobileXm}{
+    font-size: 2.2rem;
+}
+@media  ${props => props.theme.devices.mobileM}{
+    font-size: 3rem;
+}
+@media  ${props => props.theme.devices.tablet}{
+    font-size: 4rem;
+}
 `;
 export const Content = styled.div`
 height: 90%;

@@ -5,20 +5,30 @@ width: 90%;
 padding: 1rem;
 margin: 2rem auto;
 display: flex;
-flex-direction: row;
 align-items:center;
+@media ${props => props.theme.devices.mobileXm}{
+    flex-direction: column;
+}
+@media ${props => props.theme.devices.tablet}{
+    flex-direction: row;
+}
 `;
+
 export const ImageContainer = styled.div`
-width: 45%;
 align-self:stretch;
 position: relative;
+@media ${props => props.theme.devices.mobileXm}{
+    width: 100%;
+}
+@media ${props => props.theme.devices.tablet}{
+    width: 45%;
+}
 `;
 export const Content = styled.div`
 flex:1;
 align-self:stretch;
 display: flex;
 flex-direction: column;
-
 justify-content:center;
 padding-left: 1rem;
 `;

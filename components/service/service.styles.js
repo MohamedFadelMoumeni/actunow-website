@@ -3,10 +3,15 @@ import styled from "styled-components";
 export const Container = styled.div`
 width: 100%;
 display: flex;
-flex-direction: row;
 align-items:center;
 background: #3544a3;
 color: #fff;
+@media ${props => props.theme.devices.mobileXm}{
+    flex-direction: column;
+}
+@media ${props => props.theme.devices.tablet}{
+    flex-direction: row;
+}
 `;
 export const Title = styled.h1`
 `;
@@ -17,9 +22,14 @@ line-height: 2.2rem;
 margin-top: 1.6rem;
 `;
 export const Content = styled.div`
-width: 40%;
 align-self:stretch;
 padding: 5rem 1rem;
+@media ${props => props.theme.devices.mobileXm}{
+    width: 100%;
+}
+@media ${props => props.theme.devices.tablet}{
+    width: 40%;
+}
 
 `;
 export const Directory = styled.div`

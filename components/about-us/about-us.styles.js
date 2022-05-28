@@ -2,12 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 width: 90%;
-height: 300px;
 margin: 4rem auto;
 display: flex;
-flex-direction: row;
 align-items:center;
 justify-content:space-between;
+@media ${props => props.theme.devices.mobileXm}{
+    flex-direction: column;
+    height: auto;
+}
+@media ${props => props.theme.devices.tablet}{
+    flex-direction: row;
+    height: 300px;
+}
 `;
 
 export const Content = styled.div`

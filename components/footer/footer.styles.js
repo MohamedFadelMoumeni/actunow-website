@@ -49,7 +49,13 @@ width: 100%;
 display: flex;
 flex-direction: column;
 justify-content:center;
-padding-left: 4rem;
+
+ @media ${props => props.theme.devices.mobileXm}{
+     padding: 0;
+ }
+ @media ${props => props.theme.devices.tablet}{
+    padding-left: 4rem;
+}
 span{
     margin: .5rem 0;
 }
