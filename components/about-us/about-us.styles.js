@@ -19,8 +19,6 @@ justify-content:space-between;
 export const Content = styled.div`
 flex: 1;
 height: 100%;
-padding: 1rem;
-margin-left: 1rem;
 h2{
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -30,6 +28,14 @@ p{
     font-weight: 300;
     line-height: 2rem;
     font-size: 1.1rem;
+}
+@media ${props => props.theme.devices.mobileXm}{
+    margin: 0;
+    padding-top: 1rem;
+}
+@media ${props => props.theme.devices.tablet}{
+    margin-left: 1rem;
+    padding: 1rem;
 }
 
 `;
