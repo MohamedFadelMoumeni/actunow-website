@@ -2,21 +2,26 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 width: 100%;
-border: 2px solid rgba(225,225,225,.2);
-padding: 1rem;
 display: flex;
 flex-direction: column;
+align-items:center;
+justify-content:center;
+text-align:center;
 color: #fff;
 cursor: pointer;
+height: 350px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 `;
 export const Content = styled.div`
 width: 100%;
-padding-top: 1rem;
 p{
     font-weight: 300;
     line-height: 1.7rem;
 }
 `;
-export const Title = styled.h2`
-margin-bottom: 1rem;
+export const Title = styled.h1`
+margin-bottom: 1.6rem;
+font-size: 1.6rem;
 `;
