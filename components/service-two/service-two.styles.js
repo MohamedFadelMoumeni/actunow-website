@@ -30,7 +30,12 @@ align-self:stretch;
 display: flex;
 flex-direction: column;
 justify-content:center;
-padding-left: 1rem;
+@media ${props => props.theme.devices.mobileXm}{
+    padding: 0;
+}
+@media ${props => props.theme.devices.tablet}{
+    padding-left: 1rem;
+}
 `;
 export const SeoGrowth  = styled.div`
 background: white;
