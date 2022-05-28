@@ -10,7 +10,12 @@ font-family: 'Poppins', sans-serif;
 font-size: .9rem;
 letter-spacing: .12rem;
 cursor: pointer;
-display: flex;
 flex-direction: row;
 align-items:center;
+@media ${props => props.theme.devices.mobileXm}{
+    display: none;
+    }
+    @media ${props => props.theme.devices.tablet}{
+        display: flex;
+        }
 `;
