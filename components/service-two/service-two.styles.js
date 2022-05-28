@@ -2,15 +2,16 @@ import styled from "styled-components"
 
 export const Container = styled.div`
 width: 90%;
-padding: 1rem;
 margin: 2rem auto;
 display: flex;
 align-items:center;
 @media ${props => props.theme.devices.mobileXm}{
     flex-direction: column;
+    padding: 0;
 }
 @media ${props => props.theme.devices.tablet}{
     flex-direction: row;
+    padding: 1rem;
 }
 `;
 

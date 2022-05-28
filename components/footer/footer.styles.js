@@ -10,13 +10,14 @@ padding: 4rem auto auto auto;
 export const Wrapper = styled.div`
 width: 90%;
 margin: 3rem auto;
-padding: 1rem;
 display: grid;
 @media (max-width: 640px){
     grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 0;
 }
 @media (min-width: 640px){
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 1rem;
 }
 @media  (min-width: 900px) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
