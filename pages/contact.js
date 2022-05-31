@@ -10,7 +10,7 @@ const Contact = () => {
        <Header />
        <Title>Get in touch !</Title>
        <Subtitle>
-       We'd love to hear from you. Fill in the form and we'll get back to you shortly.
+       We{"'"}d love to hear from you. Fill in the form and we{"'"}ll get back to you shortly.
        </Subtitle>
        <FormContainer >
            <InputGroup>
