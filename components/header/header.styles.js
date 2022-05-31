@@ -6,7 +6,7 @@ display: flex;
 flex-direction: row;
 align-items:center;
 justify-content:space-between;
-padding-top: 1rem;
+padding-top: .4rem;
 `;
 export const Logo  = styled.h2`
 color: #fff;

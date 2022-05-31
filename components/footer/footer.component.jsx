@@ -1,11 +1,13 @@
 import {Container, RightSide, Logo, Center, LeftSide, Wrapper,Link,  FooterContainer, FooterWrapper,Title, FooterItem} from "./footer.styles"
-
-const Footer = () => {
+import Image from "next/image"
+const Footer = ({colored}) => {
     return (
         <Container>
-            <Wrapper>
+            <Wrapper colored>
             <RightSide >
-                <Logo>Logo</Logo>
+                <Logo>
+                <Image src="/assets/logo.png" width="80" height="80"/>
+                </Logo>
                 <p>
                 SWIPINV, LET´S SWIPE YOUR BUSINESS IN VICTORY
 

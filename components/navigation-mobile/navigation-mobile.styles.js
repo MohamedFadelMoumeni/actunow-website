@@ -1,6 +1,14 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+@media ${props => props.theme.devices.mobileXm}{
+    display: flex;
+
+}
+@media ${props => props.theme.devices.tablet}{
+    display: none;
+    
+}
 `;
 export const Wrapper = styled.div`
 position: fixed;
