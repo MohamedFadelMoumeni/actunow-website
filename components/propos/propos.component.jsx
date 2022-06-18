@@ -8,7 +8,7 @@ const Propos = () => {
             <Title>A Propos</Title>
             <ProposCard title="QUI SOMMES-NOUS ?">
             <p style={{display: "block", marginBottom: ".6rem"}}> 
-            Une agence de marketing digital créative basée à Oujda a pour vocation d'accompagner les entreprises nationales et internationales tout au long de leurs projets de communication numérique.
+            Une agence de marketing digital créative basée à Oujda a pour vocation d{"'"}accompagner les entreprises nationales et internationales tout au long de leurs projets de communication numérique.
             </p>
             <strong>ACTUNOW</strong> réunit sous le même toit l’intégralité des métiers du digital, avec des experts jeunes pour chaque domaine d’activité ; Des Experts en Webmarketing, Webdesign (UX/UI), Développeurs Front &amp; Back-End, Créateurs de Contenus, etc..).
             </ProposCard>
