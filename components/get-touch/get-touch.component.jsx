@@ -6,7 +6,7 @@ const GetInTouch  = () => {
     return (
         <Container>
             <MdMessage  style={{marginRight: "1rem"}} size="25px"/>
-            <p>Get intouch</p>
+            <p> Clavarder avec nous, NOW</p>
         </Container>
     )
 }

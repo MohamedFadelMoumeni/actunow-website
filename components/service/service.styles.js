@@ -18,8 +18,9 @@ export const Title = styled.h1`
 export const Subtitle = styled.p`
 color: #fff;
 width: 100%;
-line-height: 2.2rem;
 margin-top: 1.6rem;
+font-size: 1.2rem;
+font-weight: normal;
 `;
 export const Content = styled.div`
 align-self:stretch;

@@ -1,9 +1,16 @@
 import styled from "styled-components";
-
+ export  const Wrapper = styled.div`
+  width: 90%;
+  margin: auto;
+  padding: 4rem 0;
+  `;
+  export const SectionTitle = styled.h1`
+  margin-bottom: 3rem;
+text-align:center;
+font-size: 2rem;
+  `;
 export const Container = styled.div`
-width: 90%;
-margin: auto;
-padding: 4rem 0;
+width: 100%;
 margin: auto;
 display: grid;
 column-gap: 1.5rem;

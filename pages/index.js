@@ -6,6 +6,7 @@ import ServiceTwo from "../components/service-two/service-two.compnent"
 import Stats from "../components/Stats/Stats.component"
 import Brands from "../components/brands/brands.component"
 import Footer from "../components/footer/footer.component"
+import Propos from "../components/propos/propos.component"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
    <ServiceTwo />
    <Stats />
    <Brands />
+   <Propos />
    <Footer />
    </>
   )

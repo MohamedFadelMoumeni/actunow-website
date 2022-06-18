@@ -4,9 +4,10 @@ import CardService from "../card-service/card-service.component";
 const Service = () => {
     return <Container >
         <Content>
-        <Title>Our Service</Title>
+        <Title>Expertise</Title>
         <Subtitle>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ea voluptatum odit sint sapiente. Adipisci doloremque perspiciatis cumque recusandae sint eum error ad sit, maxime tempore consectetur suscipit ipsam fuga porro dicta voluptate qui accusantium quae totam cupiditate omnis tenetur beatae. Placeat fuga, ex nesciunt consequuntur dolore nihil repudiandae enim.
+        Vous aimeriez profiter de notre expertise en matière de Marketing Digital ? Nos spécialistes sont disponibles en tout temps pour vous aiguiller dans votre prochaine campagne publicitaire.
+
         </Subtitle>
         </Content>
         <Directory>
