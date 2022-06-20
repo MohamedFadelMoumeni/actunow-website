@@ -35,7 +35,6 @@ padding: 5rem 1rem;
 `;
 export const Directory = styled.div`
 flex: 1;
-background: red;
 margin: auto;
 display: grid;
 @media (max-width: 640px){
