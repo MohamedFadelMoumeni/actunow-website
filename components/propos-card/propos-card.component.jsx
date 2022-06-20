@@ -6,11 +6,11 @@ import {AiOutlineMinus} from "react-icons/ai"
 const ProposCard = ({children, title}) => {
     const [open, setOpen] = useState(false)
     return(
-    <Container onClick={() => setOpen(!open)}>
+    <Container >
         <Header>
             <p>{title}</p>
             {
-                !open ? <BsPlus size="30px" color="black"/> : <AiOutlineMinus size="30px" color="black"/>
+                !open ? <BsPlus size="30px" color="black" onClick={() => setOpen(!open)}/> : <AiOutlineMinus size="30px" color="black" onClick={() => setOpen(!open)}/>
             }
         </Header>
         {
