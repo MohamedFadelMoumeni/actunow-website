@@ -29,7 +29,7 @@ color: #fff;
     font-size: 2.2rem;
 }
 @media  ${props => props.theme.devices.mobileM}{
-    font-size: 2.8rem;
+    font-size: 2.5rem;
 }
 @media  ${props => props.theme.devices.laptopL}{
     font-size: 4rem;
