@@ -8,7 +8,7 @@ background-size: cover;
     padding-bottom: 3rem;
 }
 @media  ${props => props.theme.devices.tablet}{
-    height: 50rem;
+    height: 40rem;
     padding-bottom: 0;
 }
 `;
