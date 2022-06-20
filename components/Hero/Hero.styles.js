@@ -5,9 +5,11 @@ background-position: center;
 background-size: cover;
 @media  ${props => props.theme.devices.mobileXm}{
     height: auto;
+    padding-bottom: 3rem;
 }
 @media  ${props => props.theme.devices.tablet}{
     height: 50rem;
+    padding-bottom: 0;
 }
 `;
 
