@@ -13,7 +13,7 @@ const WeDo = () => {
                 <Content>
                     <Title>Respect.</Title>
                     <Description>
-                    Le respect nourrit la bienveillance envers toute personne et toute chose, et ce, quel que soit le moment, l'humeur, le lieu, l'individu ou l'objet. 
+                    Le respect nourrit la bienveillance envers toute personne et toute chose, et ce, quel que soit le moment, l{"'"}humeur, le lieu, l{"'"}individu ou l{"'"}objet. 
                     </Description>
                 </Content>
             </Card>
@@ -24,7 +24,7 @@ const WeDo = () => {
                 <Content>
                     <Title>Travail d{"'"}équipe.</Title>
                     <Description>
-                    Chaque collaborateur peut se consacrer pleinement à sa mission chez nous. Ce qui permet d’avoir une équipe plus efficiente! 
+                    Chaque collaborateur peut se consacrer pleinement à sa mission chez nous. Ce qui permet d{"'"}avoir une équipe plus efficiente! 
                     </Description>
                 </Content>
             </Card>
