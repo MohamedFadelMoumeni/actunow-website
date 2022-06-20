@@ -22,7 +22,7 @@ const WeDo = () => {
                     <BsCheckLg size="1.5rem"/>
                 </Rotate>
                 <Content>
-                    <Title>Travail d’équipe.</Title>
+                    <Title>Travail d{"'"}équipe.</Title>
                     <Description>
                     Chaque collaborateur peut se consacrer pleinement à sa mission chez nous. Ce qui permet d’avoir une équipe plus efficiente! 
                     </Description>
