@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const Aboutus = () => {
     return <Container >
-        <Image src="/assets/marketing.png" width="400" height="300"/>
+        <Image src="/assets/teams.png" width="400" height="300"/>
         <Content>
-           <h2>Fully dedicated to finding the best solutions.</h2>
+           <h2>Dream Team.</h2>
            <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus molestias magnam est architecto voluptates doloremque eos, aliquam in non, quia voluptatum qui, dignissimos similique expedita! Commodi, nihil. Fugit asperiores voluptatum illo quas optio veritatis nam natus unde at. Laborum obcaecati deserunt expedita similique doloribus soluta sunt asperiores debitis aliquam!
+           Équipe jeune, dédiée, et passionnée qui met son expertise à votre service! Et si vous aimeriez profiter de notre expertise en matière de Marketing Digital ? Nos spécialistes sont disponibles en tout temps pour vous aiguiller dans votre prochaine campagne publicitaire.
            </p>
         </Content>
 

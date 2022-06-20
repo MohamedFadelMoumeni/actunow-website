@@ -24,7 +24,7 @@ L’agence <strong>ACTUNOW</strong> est spécialisée dans le Webmarketing, le d
 
             <p style={{display: "block", marginBottom: ".8rem"}}>Nous ajustons vos leviers sur la durée de manière à être toujours plus performants.</p>
             <p style={{display: "block", marginBottom: ".8rem"}}>L’agence construit ainsi pour vous des stratégies digitales globales, sur-mesure et durables.</p>
-            Donc, on croit que notre mission auprès de vous n’est pas celle d’un simple prestataire de services mais d’un partenaire! Nous travaillons main dans la main avec vous, comme un membre de votre équipe, pour mener à bien vos objectifs, avec professionnalisme
+            Donc, on croit que notre mission auprès de vous n’est pas celle d’un simple prestataire de services mais d’un partenaire! Nous travaillons main dans la main avec vous, comme un membre de votre équipe, pour mener à bien vos objectifs, avec professionnalisme et pertinence.
 
             </ProposCard>
             <ProposCard title="Notre manière de travail">

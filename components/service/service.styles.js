@@ -19,7 +19,7 @@ export const Subtitle = styled.p`
 color: #fff;
 width: 100%;
 margin-top: 1.6rem;
-font-size: 1.2rem;
+font-size: 1.4rem;
 font-weight: normal;
 `;
 export const Content = styled.div`

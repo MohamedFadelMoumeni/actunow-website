@@ -13,7 +13,7 @@ const WeDo = () => {
                 <Content>
                     <Title>Respect.</Title>
                     <Description>
-                    Amcorper uisque ac dolor nec nisl pteqe. Bulum sed ultrices mi morbi dim puru.
+                    Le respect nourrit la bienveillance envers toute personne et toute chose, et ce, quel que soit le moment, l'humeur, le lieu, l'individu ou l'objet. 
                     </Description>
                 </Content>
             </Card>
@@ -24,7 +24,7 @@ const WeDo = () => {
                 <Content>
                     <Title>Travail d’équipe.</Title>
                     <Description>
-                    Amcorper uisque ac dolor nec nisl pteqe. Bulum sed ultrices mi morbi dim puru.
+                    Chaque collaborateur peut se consacrer pleinement à sa mission chez nous. Ce qui permet d’avoir une équipe plus efficiente! 
                     </Description>
                 </Content>
             </Card>
@@ -35,8 +35,7 @@ const WeDo = () => {
                 <Content>
                     <Title>Transparence.</Title>
                     <Description>
-                    Amcorper uisque ac dolor nec nisl pteqe. Bulum sed ultrices mi morbi dim puru.
-                    </Description>
+                    Une entreprise qui pratique la transparence, obtiendra systématiquement des avantages, et ça nous permet de rester en tête de course.                     </Description>
                 </Content>
             </Card>
             <Card >
@@ -46,8 +45,7 @@ const WeDo = () => {
                 <Content>
                     <Title>Créativité.</Title>
                     <Description>
-                    Amcorper uisque ac dolor nec nisl pteqe. Bulum sed ultrices mi morbi dim puru.
-                    </Description>
+                    Rassembler des experts en digital nous permet de générer des idées sans pareil.                     </Description>
                 </Content>
             </Card>
             <Card >
@@ -55,10 +53,9 @@ const WeDo = () => {
                     <BsCheckLg size="1.5rem"/>
                 </Rotate>
                 <Content>
-                    <Title>Responsabilité.</Title>
+                    <Title>Performance .</Title>
                     <Description>
-                    Amcorper uisque ac dolor nec nisl pteqe. Bulum sed ultrices mi morbi dim puru.
-                    </Description>
+                    Nous somme accrédités comme étant un partenaire digital de Google, et même Blueprint Facebook.                     </Description>
                 </Content>
             </Card>
             

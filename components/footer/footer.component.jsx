@@ -9,14 +9,12 @@ const Footer = ({colored}) => {
                 <Image src="/assets/logo.png" width="80" height="80"/>
                 </Logo>
                 <p>
-                SWIPINV, LET´S SWIPE YOUR BUSINESS IN VICTORY
-
+                L’agence qui vous simplifie le Web
                 </p>
             </RightSide>
             <Center>
                 <p>
-                SwipInv est une agence de marketing digital et de publicité marocaine située à Oujda aux activités variées. SwipInv vous propose un accompagnement en marketing digital. Afin de répondre aux besoins de nos clients
-
+                ACTUNOW, est une agence de branding et de marketing digital B2B qui vient pour vous faire devenir les leaders dans votre domaine. 
                 </p>
             </Center>
             <LeftSide>

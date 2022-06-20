@@ -34,6 +34,11 @@ const Hero = () => {
             <Header />
         
             <Carousel containerClass="carousel" responsive={responsive}>
+            <Content>
+               <Title>
+               ACTUNOW l’Agence de Marketing qui vous simplifie le Web! 
+               </Title>
+               </Content>
                <Content>
                <Title>
                On rendra votre marque beaucoup plus performante grâce à nos solutions technologiques!
@@ -52,7 +57,7 @@ const Hero = () => {
                </Content>
                <Content>
                <Title>
-               Équipe jeune, dédiée, et passionnée qui met son expertise à votre service
+               Donnez vie à vos idées avec notre agence de communication ACTUNOW!
                </Title>
                </Content>
 

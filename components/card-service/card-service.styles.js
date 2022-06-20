@@ -13,6 +13,7 @@ height: 350px;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+${ props => props.all && 'grid-column: 1 / span 2'};
 `;
 export const Content = styled.div`
 width: 100%;
