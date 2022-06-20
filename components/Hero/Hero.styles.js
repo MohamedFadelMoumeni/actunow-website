@@ -22,14 +22,16 @@ font-weight: 400;
 text-transform: uppercase;
 `;
 export const Title = styled.h1`
-width: 80%;
+
 text-align:center;
 color: #fff;
 @media  ${props => props.theme.devices.mobileXm}{
     font-size: 2.2rem;
+    width: 90%;
 }
 @media  ${props => props.theme.devices.mobileM}{
     font-size: 2.5rem;
+    width: 80%;
 }
 @media  ${props => props.theme.devices.laptopL}{
     font-size: 4rem;
