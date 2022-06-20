@@ -1,9 +1,14 @@
 import styled from "styled-components"
 export const Container = styled.div`
 width: 100%;
-height: 50rem;
 background-position: center;
 background-size: cover;
+@media  ${props => props.theme.devices.mobileXm}{
+    height: auto;
+}
+@media  ${props => props.theme.devices.tablet}{
+    height: 50rem;
+}
 `;
 
 export const Wrapper  = styled.div`
