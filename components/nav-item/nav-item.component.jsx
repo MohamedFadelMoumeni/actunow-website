@@ -1,11 +1,7 @@
 import { Container } from "./nav-item.styles";
 
-const NavItem = () => {
-    return (
-        <Container>
-            Home
-        </Container>
-    )
-}
+const NavItem = ({ title }) => {
+  return <Container>{title}</Container>;
+};
 
-export default NavItem
+export default NavItem;

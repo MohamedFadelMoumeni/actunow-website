@@ -1,6 +1,7 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Container = styled.li`
-margin-right: 2.5rem;
-cursor: pointer;
+  margin-right: 2.5rem;
+  cursor: pointer;
+  color: #000;
 `;

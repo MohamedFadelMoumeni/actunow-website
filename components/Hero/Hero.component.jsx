@@ -35,12 +35,10 @@ const Hero = () => {
     <Container
       style={{
         backgroundImage:
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url(./assets/hero.jpg)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url(./assets/background.webp)",
       }}
     >
       <Wrapper>
-        <Header />
-
         <Carousel containerClass="carousel" responsive={responsive}>
           <Content>
             <Title>
@@ -67,9 +65,7 @@ const Hero = () => {
             </Title>
             <Paragraph>
               Nous sommes une agence de marketing créative accompagnatrice des
-              entreprises nationales et internationales. Avec un positionnement
-              de fierté, on est classé parmi les meilleures agences de
-              publicités au nord-est du Maroc.
+              entreprises nationales et internationales.
             </Paragraph>
           </Content>
           <Content>
