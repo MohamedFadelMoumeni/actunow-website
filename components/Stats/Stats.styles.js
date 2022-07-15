@@ -37,7 +37,7 @@ export const Description = styled.p`
 `;
 
 export const Directory = styled.div`
-  width: 100%;
+  width: 90%;
   display: grid;
   column-gap: 1.5rem;
   row-gap: 1.5rem;
@@ -52,7 +52,7 @@ export const Directory = styled.div`
   }
 `;
 export const CardServiceTwo = styled.div`
-  width: 90%;
+  width: 100%;
   margin: 1rem auto;
   display: flex;
   flex-direction: column;

@@ -9,6 +9,7 @@ import {
 } from "./Stats.styles";
 import Image from "next/image";
 import { RiComputerLine } from "react-icons/ri";
+import { BiAnalyse, BiFastForward } from "react-icons/bi";
 const Stats = () => {
   return (
     <Container>
@@ -21,7 +22,7 @@ const Stats = () => {
       </Description>
       <Directory>
         <CardServiceTwo>
-          <RiComputerLine size="130px" />
+          <RiComputerLine size="100px" />
           <TitleCard>SOLUTIONS ADAPTÉES</TitleCard>
           <DescriptionCard>
             Nous favorisons la création de valeurs et le déploiement de nouveaux
@@ -30,25 +31,23 @@ const Stats = () => {
           </DescriptionCard>
         </CardServiceTwo>
         <CardServiceTwo>
-          <RiComputerLine size="130px" />
+          <BiAnalyse size="90px" />
           <TitleCard>ANALYSE DE VOTRE ENTREPRISE</TitleCard>
           <DescriptionCard>
             Notre intention en tant qu’agence de marketing est de mettre en
             évidence vos forces et faiblesses pour prendre des décisions
             stratégiques plus adaptées. Celui-ci va permettre d’optimiser la
-            gestion des ressources et de se concentrer sur les faiblesses de
-            l’organisation pour les combler et devenir plus compétitif.
+            gestion des ressources et devenir plus compétitif.
           </DescriptionCard>
         </CardServiceTwo>
         <CardServiceTwo>
-          <RiComputerLine size="130px" />
+          <BiFastForward size="90px" />
           <TitleCard>ACCÉLÉRATION DE VOTRE CROISSANCE</TitleCard>
           <DescriptionCard>
             Notre objectif consiste à permettre à votre entreprise de tirer
-            profit de notre expérience approfondie du marketing digital et de
-            l’informatique opérationnel en intervenant pour le déploiement de
-            solutions intelligentes et fiables. pour assurer la croissance de
-            votre entreprise.
+            profit de notre expérience approfondie du marketing digital pour le
+            déploiement de solutions intelligentes et fiables. Afin d' assurer
+            la croissance de votre entreprise.
           </DescriptionCard>
         </CardServiceTwo>
       </Directory>
