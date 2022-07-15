@@ -11,7 +11,7 @@ const Contact = () => {
         <Title>Contactez-nous </Title>
         <Subtitle>
           Vous voulez nous consulter pour un projet, ou vous avez simplement
-          besoin d'un conseil ? remplissez ce formulaire , nous vous
+          besoin d{"'"}un conseil ? remplissez ce formulaire , nous vous
           contacterons dans les plus brefs délais.
         </Subtitle>
         <FormContainer>
