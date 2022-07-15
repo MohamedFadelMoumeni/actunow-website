@@ -23,12 +23,12 @@ const ServiceTwo = () => {
         <Description>
           ACTUNOW et une agence de marketing digital basée à Oujda son objectif
           et de vous aider à développer votre projet. Le Web Merketing est notre
-          passion, et nous sommes passionnés d'aider les entreprises à atteindre
-          leurs objectifs. Ainsi, lorsque vous choisissez ACTUNOW comme agence
-          de marketing digital, vous obtiendrez un plan personnalisé qui
-          correspond à votre entreprise, à vos besoins et à vos objectifs. Notre
-          philosophie est simple, nous avons des partenaires, pas des clients.
-          Votre succès est le nôtre.
+          passion, et nous sommes passionnés d{"'"}aider les entreprises à
+          atteindre leurs objectifs. Ainsi, lorsque vous choisissez ACTUNOW
+          comme agence de marketing digital, vous obtiendrez un plan
+          personnalisé qui correspond à votre entreprise, à vos besoins et à vos
+          objectifs. Notre philosophie est simple, nous avons des partenaires,
+          pas des clients. Votre succès est le nôtre.
         </Description>
         <LearnMore>Learn more</LearnMore>
       </Content>
