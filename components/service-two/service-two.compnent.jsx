@@ -30,7 +30,7 @@ const ServiceTwo = () => {
           objectifs. Notre philosophie est simple, nous avons des partenaires,
           pas des clients. Votre succès est le nôtre.
         </Description>
-        <LearnMore>Learn more</LearnMore>
+        <LearnMore>Savoir plus</LearnMore>
       </Content>
     </Container>
   );

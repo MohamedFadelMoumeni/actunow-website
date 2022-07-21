@@ -10,7 +10,7 @@ const CardService = ({ title, description, all, img }) => {
       }}
     >
       <Title>{title}</Title>
-      <p>{description}</p>
+      <p style={{ width: "80%" }}>{description}</p>
     </Container>
   );
 };

@@ -43,7 +43,7 @@ export default Contact;
 const Container = styled.div`
   width: 100%;
   color: #fff;
-  background: #3544a3;
+  background: #2d4059;
   position: relative;
   #contact {
     position: absolute;
@@ -131,7 +131,7 @@ export const Textarea = styled.textarea`
 `;
 const Submit = styled.button`
   padding: 0.9rem 4rem;
-  background: #3544a3;
+  background: #2d4059;
   color: #fff;
   border: 0;
   font-family: "Poppins", sans-serif;

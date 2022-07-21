@@ -22,7 +22,7 @@ const Stats = () => {
       </Description>
       <Directory>
         <CardServiceTwo>
-          <RiComputerLine size="100px" />
+          <RiComputerLine size="90px" />
           <TitleCard>SOLUTIONS ADAPTÉES</TitleCard>
           <DescriptionCard>
             Nous favorisons la création de valeurs et le déploiement de nouveaux
