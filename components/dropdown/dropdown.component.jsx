@@ -5,23 +5,24 @@ import { BsChevronDown, BsChevronUp } from "react-icons/bs";
 const DropDown = () => {
   const [open, setOpen] = useState(false);
   return (
-    <Container
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
-    >
+    <Container>
       <Title>
-        <a>Nos Services</a>
+        <a
+          aria-expanded={open ? "true" : "false"}
+          onClick={() => setOpen((prev) => !prev)}
+        >
+          Nos Services
+        </a>
         {open ? <BsChevronUp /> : <BsChevronDown />}
       </Title>
-      {open && (
-        <Drop onMouseEnter={() => setOpen(true)}>
-          <ServiceItem>CRÉATION GRAPHIQUE</ServiceItem>
-          <ServiceItem>APPLICATIONS MOBILE</ServiceItem>
-          <ServiceItem>CONSEIL ET STRATÉGIE</ServiceItem>
-          <ServiceItem>WEBMARKETING</ServiceItem>
-          <ServiceItem>DÉVELOPPEMENT WEB & MULTIMEDIA</ServiceItem>
-        </Drop>
-      )}
+
+      <Drop open={open}>
+        <ServiceItem>CRÉATION GRAPHIQUE</ServiceItem>
+        <ServiceItem>APPLICATIONS MOBILE</ServiceItem>
+        <ServiceItem>CONSEIL ET STRATÉGIE</ServiceItem>
+        <ServiceItem>WEBMARKETING</ServiceItem>
+        <ServiceItem>DÉVELOPPEMENT WEB & MULTIMEDIA</ServiceItem>
+      </Drop>
     </Container>
   );
 };
@@ -39,6 +40,9 @@ export const Title = styled.li`
   color: #000;
   a {
     margin-right: 0.4rem;
+    color: #000;
+    background: transparent;
+    border: 0;
   }
 
   &:hover {
@@ -46,17 +50,19 @@ export const Title = styled.li`
   }
 `;
 export const Drop = styled.div`
-  background: #fff;
-  border-radius: 10px;
-  color: #000;
   position: absolute;
-  bottom: -320px;
-  right: 50%;
-  transform: translateX(50%);
-  padding: 1rem;
-  box-shadow: 0px 0px 27px -3px rgba(0, 0, 0, 0.1);
-  z-index: 300;
-  width: 200px;
+  right: 0;
+  left: auto;
+  box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+    0 4px 6px -2px rgba(71, 63, 79, 0.16);
+  font-size: 0.875rem;
+  z-index: 9999;
+  min-width: 200px;
+  padding: 0.5rem 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  ${(props) => !props.open && "display: none"};
 `;
 const ServiceItem = styled.p`
   font-size: 0.8rem;

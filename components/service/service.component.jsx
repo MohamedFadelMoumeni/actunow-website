@@ -12,11 +12,13 @@ const Service = () => {
     <Container>
       <Content>
         <Title>Expertise</Title>
-        <Subtitle>
+        {/**
+             *         <Subtitle>
           Nos experts sont en veille constante et s’appuient sur les meilleures
           pratiques tendances, et évolutions digitales du moment pour vous
           apporter la modernité et l’excellence.
         </Subtitle>
+             */}
       </Content>
       <Directory>
         <CardService
