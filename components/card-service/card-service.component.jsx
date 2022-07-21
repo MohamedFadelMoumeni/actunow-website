@@ -1,21 +1,18 @@
-import {Container, Content, Title} from "./card-service.styles"
-import Image from "next/image"
+import { Container, Content, Title } from "./card-service.styles";
+import Image from "next/image";
 
-const CardService = ({title, description, all}) => {
-    return <Container 
-    all={all}
-    style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/service-1.jpg)`
-    }}
+const CardService = ({ title, description, all, img }) => {
+  return (
+    <Container
+      all={all}
+      style={{
+        backgroundImage: ` url(${img})`,
+      }}
     >
-       
-       
-            <Title>{title}</Title>
-            <p>
-                {description}
-            </p>
-       
+      <Title>{title}</Title>
+      <p>{description}</p>
     </Container>
-}
+  );
+};
 
-export default CardService
+export default CardService;

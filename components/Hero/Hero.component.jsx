@@ -35,7 +35,7 @@ const Hero = () => {
     <Container
       style={{
         backgroundImage:
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url(./assets/background.webp)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url(./assets/home.webp)",
       }}
     >
       <Wrapper>
